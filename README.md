@@ -35,14 +35,19 @@ git clone https://github.com/louri91/ebury-frontend-task.git
 Check for the following requirements to run the app:
 
 - Install Node.js (version 5.6.0)
+This example is using brew on OSX
 ```
 brew install node
 ```
+You can download Node.js [here](https://nodejs.org/en/download/)
+Now we can use npm for installing packages like React.
+
 - Install React
 ```
 npm install react
 ```
-- Install react-scripts that will be used to create our React app. react-scripts is part of the create-react-app module
+- Install react-scripts 
+We use this package to create and run our React app. react-scripts is part of the create-react-app module
 ```
 npm install react-scripts
 ```
