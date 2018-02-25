@@ -1,0 +1,168 @@
+$grey:  #888;
+$white: #FFF;
+$blue: #084358;
+$green: #4bd59c;
+$lightblue: #00bef1;
+$lightgreen: #4fd2dc;
+
+html, body{
+  height: 100%;
+  background: linear-gradient($lightblue, $lightgreen);
+}
+
+h1 {
+	font-family: Raleway;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+  line-height: 15.4px;
+  color: $grey;
+}
+
+h2 {
+	font-family: Raleway;
+  font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+  line-height: 15.4px;
+}
+
+h3 {
+	font-family: Raleway;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+}
+p, input, textarea {
+	font-family: Raleway;
+	font-size: 13px !important;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 14px;
+}
+
+::placeholder{
+  color: #bbb !important;
+  font-size: 13px;
+  opacity: 1;
+}
+
+.card{
+  border: 0;
+  box-shadow: 1px 1px 20px $grey;
+}
+
+.card-header{
+  background-color: $blue;
+  color: $white;
+  padding: 1.4rem 2.4rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-block{
+  padding-top: 2.25rem;
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+  padding-bottom: 0.3rem;
+}
+
+textarea {
+  resize: none;
+}
+
+.image-upload > input {
+  display: none;
+}
+
+.image-upload > label > .fa{
+  font-size: 18px;
+}
+
+.btn-primary{
+  background-color: $white;
+  color: #a2a2a2;
+  border-color: #ddd;
+  border-radius: 47%;
+}
+
+.btn-primary:hover{
+  background-color: #ccc;
+  color: $white;
+  border-color: #ddd;
+}
+
+.btn{
+  padding: 0.5rem 0.65rem;
+}
+
+.btn-send {
+  padding: .5rem 1.2rem;
+  border-radius: 20px;
+  height: 37px;
+  background-color: $blue;
+}
+
+.btn-send > .fa{
+  margin-right: .6rem;
+}
+
+.btn-send:disabled {
+  background-color: #ddd;
+  border-color: #ddd;
+  color: $grey;
+}
+
+.hidden{
+  display: none;
+}
+
+.images-preview{
+  margin-bottom: 1rem;
+}
+
+.image-preview > img{
+  width: 80px;
+  object-fit: cover;
+  height: 80px;
+  border-radius: 5px;
+  margin-right: .7rem;
+  margin-bottom: .7rem;
+}
+
+.image-preview{
+  width: 90px;
+  height: 90px;
+}
+
+.image-preview:hover > img{
+  opacity: 0.4;
+}
+
+.image-preview button{
+  display: none;
+}
+
+.image-preview:hover button {
+  display: block;
+  position: relative;
+  top: -78%;
+  left: 23%;
+}
+
+.fa-check-circle{
+  font-size: 90px !important;
+  color: $green;
+}
+
+.email-link{
+  margin-right: .2rem;
+}
+
+.message{
+  white-space: pre-line;
+}
