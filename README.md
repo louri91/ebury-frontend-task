@@ -20,36 +20,45 @@ Explorer 11, Edge and Safari.
 - The app has been developed using React 
 - It is based on Bootstrap CSS Framework
 
+## Demo App
+
+https://louri91.github.io/ebury-frontend-task/
+
 ## Instructions to run the app
 
-### First of all clone this repo using command 
+First of all clone this repo using command 
 
 ```
 git clone https://github.com/louri91/ebury-frontend-task.git
 ```
 
-# 
+Check for the following requirements to run the app:
 
-In the project directory, you can run:
+- Install Node.js (version 5.6.0)
+```
+brew install node
+```
+- Install React
+```
+npm install react
+```
+- Install react-scripts that will be used to create our React app. react-scripts is part of the create-react-app module
+```
+npm install react-scripts
+```
+or
+```
+npm install create-react-app
+```
+
+- In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
+This command runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](#deployment) for more information.
 
 ## Supported Browsers
 
-By default, the generated project uses the latest version of React.
-
-You can refer [to the React documentation](https://reactjs.org/docs/react-dom.html#browser-support) for more information about supported browsers.
+Tested in Google Chrome, Mozilla Firefox, Internet Explorer, Edge and Safari
 
