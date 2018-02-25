@@ -24,7 +24,7 @@ Explorer 11, Edge and Safari.
 
 https://louri91.github.io/ebury-frontend-task/
 
-## Instructions to run the app
+## Instructions to run the app on local
 
 First of all clone this repo using command 
 
